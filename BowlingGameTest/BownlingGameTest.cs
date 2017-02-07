@@ -67,6 +67,7 @@ namespace BowlingGameTest
         }
 
         [TestCase(12, 10, ExpectedResult = 300)]
+        [TestCase(20, 1, ExpectedResult = 20)]
         public int TestMany(int rolls, int pins)
         {
             RollMany(rolls, pins);
